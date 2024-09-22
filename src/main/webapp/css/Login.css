@@ -1,0 +1,71 @@
+body
+{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/pngte.png") center center/cover;
+    background-position: 0% 0%;
+    font-weight: bolder;
+    /*center center/cover;*/
+}
+table
+{
+    margin: auto;
+    color: white;
+    font-family: Cambria;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1
+{
+    margin-right: 50px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+input[type="text"]
+{
+    width: 80%;
+    padding: 12px;
+    margin: 10px 10px 10px 20px;
+    font-size: 16px;
+    font-family: Cambria, serif;
+    font-weight: bold;
+    color: black;
+    border: 1.5px solid black;
+    background: white;
+    opacity: 90%;
+    box-sizing: border-box;
+}
+input[type="Password"]
+{
+    width: 80%;
+    padding: 12px;
+    margin: 10px 10px 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    border: 1.5px solid white;
+    background: white;
+    opacity: 90%;
+    box-sizing: border-box;
+}
+::placeholder
+{
+    font-size: 14px;
+    font-family: Cambria, serif;
+    color: black;
+}
+input[type="submit"]
+{
+    width: 110%;
+    padding: 12px;
+    margin: 10px 10px 10px 105px;
+    font-size: 16px;
+    font-family: Cambria, serif;
+    font-weight: bolder;
+    opacity: 80%;
+    border: 1.5px solid white;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}

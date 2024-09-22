@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Entries</title>
+</head>
+<link rel="stylesheet" href="css/Entry.css"/>
+<body>
+<div class="header">
+<a href="Records" style="color: white">See Records</a><a href="Records" style="color: white">Logout</a>
+</div>
+<div class="formdiv">
+    <h1><u>PATIENT</u> <u>ENTRY</u></h1></br>
+    <form action="Entry" method="post">
+        <table>
+            <tr>
+                <td>Patient ID </td><td> <input  type="text" name="PatientID" placeholder="Patient ID" required></td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Patient Name </td><td> <input  type="text" name="PatientName" placeholder="Patient Name" required></td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Age </td><td> <input type="text"  name="Age" placeholder="Age" required></td>
+            </tr>
+
+            <tr><td></br></td></tr>
+
+            <tr>
+                <td>Phone Number </td><td> <input type="text" name="ph_no" placeholder="Phone Number" required></td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Gender</td>
+                <td>
+                    <select name="Gender">
+                    <option selected>Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                    </select>
+                </td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Address</td><td> <input  type="text" name="Address" placeholder="Address" required></td>
+            </tr>
+
+            <tr><td></br></td></tr>
+
+            <tr>
+                <td>Entry Time </td><td> <input  type="time" name="Time" placeholder="Time" required></td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Date </td><td> <input type="date" name="Date" placeholder="Date" required></td>
+                <td>&emsp;&emsp;&emsp;&emsp;</td>
+
+                <td>Visit </td>
+                <td>
+                    <select name="Visit">
+                    <option selected>Visit Status</option>
+                    <option>First Visit</option>
+                    <option>Repeat Visit</option>
+                </select>
+            </td>
+            </tr>
+        </table>
+
+         <table >
+             <tr><td></br></td></tr>
+            <tr>
+                <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</td>
+                <td>Disease&emsp;</td>
+                <td>
+                    <select name="Disease">
+                    <option selected> Select Disease</option>
+                    <option>Cardiovascular Issues</option>
+                    <option>Retinal-Cataract Eye Disease</option>
+                    <option>Cirrhosis Liver Disease</option>
+                    <option>Neurological Disorders</option>
+                    <option>Digestive Disorders</option>
+                    </select>
+                </td>
+
+                <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </td>
+                <td>
+                    <input type="submit" name="submit" value="Enter">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
